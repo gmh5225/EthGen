@@ -1,6 +1,7 @@
 # EthGen
 
 A simple command-line tool written in Go to generate Ethereum wallet addresses and private keys in bulk.
+This tool is designed for **secure, local generation** of wallets, meaning your private keys are generated directly on your machine and are not transmitted over the network.
 
 ## Features
 
