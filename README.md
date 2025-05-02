@@ -20,10 +20,10 @@ This command will download the source code, compile it, and place the `EthGen` e
 
 ## Usage
 
-Run the compiled executable from your terminal, providing the number of wallets you want to generate as a command-line argument:
+Run the installed executable from your terminal, providing the number of wallets you want to generate as a command-line argument:
 
 ```bash
-./EthGen <number_of_wallets>
+EthGen <number_of_wallets>
 ```
 
 **Example:**
@@ -31,7 +31,7 @@ Run the compiled executable from your terminal, providing the number of wallets 
 To generate 5 wallets:
 
 ```bash
-./EthGen 5
+EthGen 5
 ```
 
 This command will:
