@@ -8,6 +8,16 @@ A simple command-line tool written in Go to generate Ethereum wallet addresses a
 *   Saves each wallet's address and private key to a separate `.txt` file.
 *   Organizes generated wallet files into a `wallets` directory.
 
+## Using `go install` (Recommended for users)
+
+If you just want to use the `EthGen` command-line tool without cloning the repository, you can install it directly using `go install`:
+
+```bash
+go install github.com/gmh5225/EthGen@latest
+```
+
+This command will download the source code, compile it, and place the `EthGen` executable in your Go binary path (`$GOPATH/bin` or `$HOME/go/bin`). Ensure this directory is in your system's `PATH` environment variable to run `EthGen` directly from anywhere in your terminal.
+
 ## Usage
 
 Run the compiled executable from your terminal, providing the number of wallets you want to generate as a command-line argument:
